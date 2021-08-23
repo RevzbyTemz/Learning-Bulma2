@@ -1,0 +1,36 @@
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(255, 255, 255, 0.45)), url(./pexels-幻影多媒体-d-4160154.jpg);
+    /* background-position: 10px; */
+    background-size: contain, cover;
+    background-repeat: no-repeat;
+}
+
+.hero-body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+}
+
+.icon-text{
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    position: relative;
+    top: -195px;
+}
+
+.icon{
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+span .google{
+    position: relative;
+    left: 1px;
+    margin-right: 5px;
+}
